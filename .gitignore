@@ -1,0 +1,84 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+VENV/
+env.bak/
+venv.bak/
+
+# PyCharm specific
+.idea/
+
+# VS Code specific
+.vscode/
+
+# Spyder specific
+.spyderproject
+.spyproject
+
+# Anaconda Project files (often environment-specific)
+# If 'anaconda_projects' is at the root and contains local config:
+anaconda_projects/
+# Or be more specific if needed:
+# anaconda_projects/db/project_filebrowser.db # if this is a local-only db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Datasets (if large or private - consider Git LFS for large files you *do* want to track)
+# data/raw_data/
+# data/processed_data/
+# *.csv
+# *.xlsx
+# *.parquet
+
+# Secrets & Credentials (NEVER commit these)
+credentials.json
+*.pem
+secrets.yaml
+.env.*local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Untitled or temporary notebooks
+Untitled.ipynb
+Untitled*.ipynb
